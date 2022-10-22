@@ -56,7 +56,7 @@ body {
     align-content: center;
     margin: auto;
     position: relative;
-    top: -15%;
+    top: -10%;
     text-align: center;
 }
 
@@ -79,6 +79,15 @@ body {
     font-size: 1rem;
 }
 
+.engagement {
+    gap: .5em;
+    align-items: baseline;
+}
+
+a.recommendations, .recommendations a:visited, .recommendations a:link {
+    color: green;
+    text-decoration: none;
+}
 
 .flex {
     display: flex;
@@ -116,7 +125,7 @@ body {
     color: white;   
 }
 
-a, a:visited, a:hover, a:link {
+a.hero, .hero a:visited, .hero a:link {
     color: white;
     text-decoration: none;
 }
