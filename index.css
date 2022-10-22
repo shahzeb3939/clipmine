@@ -1,6 +1,5 @@
 body {
     margin: 0px;
-    color: rebeccapurple;
 }
 
 /* .main * {
@@ -34,8 +33,50 @@ body {
     color: #229CD7;
 }
 
-.features {
-    background-color: pink;
+.nav-bar__container {
+    min-width: 45rem;
+    overflow: scroll;
+}
+
+.nav-bar__end {
+    white-space: nowrap;
+}
+
+.hero {
+    font-family: sans-serif;
+    background: url(./resources/top-section_2180x750.jpg);
+    background-position: center;
+}
+
+.hero__container {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    align-content: center;
+    margin: auto;
+    position: relative;
+    top: -15%;
+    text-align: center;
+}
+
+.hero__container h1 {
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.hero__container p {
+    width: 70%;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.hero__container a {
+    margin-top: 1em;
+    background-color: #229CD7;
+    padding: 1.25em 5em;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 
@@ -71,10 +112,22 @@ body {
     background-color: #000000;   
 }
 
+.white-color {
+    color: white;   
+}
+
 a, a:visited, a:hover, a:link {
-    color: red;
+    color: white;
+    text-decoration: none;
 }
 
 img {
     max-width: 100%;
 }
+
+/* @media (max-width: 720px) {
+    .nav-bar__container {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
