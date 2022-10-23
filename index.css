@@ -9,7 +9,7 @@ body {
 
 .main {
     display: grid;
-    grid-template-rows: 1fr 9.3fr 8.4fr 6.5fr 6.5fr 6fr 6.75fr 4.5fr 4.5fr .5fr .5fr ;
+    grid-template-rows: 1fr 9.3fr 8.4fr 6.5fr 7fr 6fr 6.75fr 4.5fr 4.5fr .5fr .5fr ;
 }
 
 .nav-bar__container {
@@ -177,8 +177,9 @@ a.share, .share a:visited, .share a:link {
 
 .features {
     /* background-color: bisque; */
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+    margin-inline: auto;
     /* align-content: center; */
 }
 
@@ -220,6 +221,79 @@ a.share, .share a:visited, .share a:link {
     font-size: .9rem;
 }
 
+.benefits {
+    /* background-color: wheat; */
+    /* border: 1px solid black; */
+    /* height: 100%; */
+}
+
+.benefits__container {
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+    text-align: center;
+    margin-inline: 3em;
+    gap: 1em;
+}
+
+.benefits__header {
+    font-size: 3rem;
+    font-weight: 300;
+    /* margin-bottom: 3em; */
+}
+
+.benefits__cards_container {
+    /* gap: 50px; */
+}
+
+.benefits__cards_container > * {
+    margin-top: 1em;
+}
+
+.benefits__card {
+    gap: 2em;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.benefits__card__image_container {
+    flex-basis: 110px;
+}
+
+.benefits__card__content_container {
+    flex-basis: 500px;
+    text-align: start;
+}
+
+.benefits__card__content_container__header {
+    font-weight: 400;
+}
+
+.benefits__card__content_container__paragraph {
+    line-height: 1.25rem;
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+.benefits__card__content_container > * {
+    /* border: 1px solid salmon; */
+    margin-top: 0px;
+}
+
+/* .benefits__container > * {
+    border: 1px solid green;
+}
+
+.benefits__cards_container > * {
+    border: 1px solid black;
+}
+
+.benefits__card > * {
+    border: 1px solid black;
+}
+
+.benefits__card__image_container > * {
+    border: 1px solid blue;
+} */
 
 
 
@@ -274,7 +348,7 @@ img {
 @media (max-width: 45rem) {
 
     .main {
-        grid-template-rows: 2.5fr 9.3fr 24fr 18fr 6.5fr 6fr 6.75fr 4.5fr 4.5fr .5fr .5fr ;
+        grid-template-rows: 2.5fr 9.3fr 24fr 18fr 10fr 6fr 6.75fr 4.5fr 4.5fr .5fr .5fr ;
     }
 
     .nav-bar__container {
