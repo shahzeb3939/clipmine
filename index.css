@@ -176,7 +176,7 @@ a.share, .share a:visited, .share a:link {
 }
 
 .features {
-    background-color: bisque;
+    /* background-color: bisque; */
     justify-content: center;
     align-items: center;
     /* align-content: center; */
