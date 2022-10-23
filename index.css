@@ -135,6 +135,11 @@ img {
 }
 
 @media (max-width: 45rem) {
+
+    body {
+        width: 100vw;
+    }
+
     .main {
         grid-template-rows: 2.5fr 9.3fr 8.4fr 6.5fr 6.5fr 6fr 6.75fr 4.5fr 4.5fr .5fr .5fr ;
     }
