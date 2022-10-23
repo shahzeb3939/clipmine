@@ -86,6 +86,16 @@ body {
     align-items: center;
 }
 
+.recommendations__header {
+    font-weight: 200;
+    font-size: 1.75rem;
+}
+
+.recommendations__paragraph {
+    font-weight: 200;
+    max-width: 35rem;
+}
+
 .recommendations__container > * {
     /* border: 1px solid black; */
 }
@@ -165,6 +175,53 @@ a.share, .share a:visited, .share a:link {
     height: 100%;
 }
 
+.features {
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+}
+
+.features__container {
+    /* border: 1px solid salmon; */
+    text-align: center;
+    margin-inline: 3em;
+    justify-content: space-evenly;
+}
+
+.features__header {
+    font-size: 3rem;
+    font-weight: 300;
+    /* margin-bottom: 3em; */
+}
+
+.features__container > * {
+    /* border: 1px solid blue; */
+}
+
+.features__cards_container {
+    /* border: 1px solid green; */
+    gap: 1em;
+}
+
+.features__cards_container > * {
+    flex-basis: 100%;
+    max-width: 400px;
+    /* border: 1px solid seashell;    */
+}
+
+.features__card__header {
+    font-weight: 400;
+}
+
+.features__card__paragraph {
+    line-height: 1.25rem;
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+
+
 
 
 
@@ -217,7 +274,7 @@ img {
 @media (max-width: 45rem) {
 
     .main {
-        grid-template-rows: 2.5fr 9.3fr 24fr 6.5fr 6.5fr 6fr 6.75fr 4.5fr 4.5fr .5fr .5fr ;
+        grid-template-rows: 2.5fr 9.3fr 24fr 18fr 6.5fr 6fr 6.75fr 4.5fr 4.5fr .5fr .5fr ;
     }
 
     .nav-bar__container {
@@ -249,5 +306,10 @@ img {
     .recommendations_cards {
         flex-direction: column;
         gap: 4em;
+    }
+
+    .features__cards_container {
+        flex-direction: column;
+        gap: 3em;
     }
 }
