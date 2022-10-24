@@ -397,8 +397,51 @@ a.share, .share a:visited, .share a:link {
     object-fit: cover;
 }
 
+.tag {
+    justify-content: center;
+    align-items: center;
+    padding-inline: 3em;
+}
 
 
+.tag__container {
+    /* height: 100%; */
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+.tag__header {
+    text-align: center;
+    margin-top: 0;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.tag__search-container {
+    /* border-radius: 0; */
+}
+
+.tag__search-container__input {
+    padding-left: 1em;
+    flex-basis: 85%;
+    border-radius: 0;
+    border: 1px solid rgb(187, 187, 187);
+    border-top: 3px solid rgb(187, 187, 187);
+    border-radius: 2px;
+}
+
+.tag_search-container__button {
+    border-radius: 2px;
+    flex-basis: 15%;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 1em .7em;
+    border-radius: 0;
+    border: none;
+    font-size: 1rem;
+    background-color: #337AB7;
+    color: white;
+}
 
 
 
