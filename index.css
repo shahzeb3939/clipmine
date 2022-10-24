@@ -601,6 +601,11 @@ img {
         width: 80%;
     }
 
+    .hero__container > h1 {
+        font-size: 4rem;
+        letter-spacing: .025em;
+    }
+
     .recommendations_cards {
         flex-direction: column;
         gap: 4em;
