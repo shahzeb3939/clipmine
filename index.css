@@ -478,6 +478,38 @@ a.share, .share a:visited, .share a:link {
     object-fit: cover;
 }
 
+.connect-bar {
+    justify-content: center;
+    align-items: flex-end;
+    font-size: .9rem;
+}
+
+.connect-bar__container a, .connect-bar__container a:link {
+    color: steelblue;
+    text-decoration: none;
+}
+
+.connect-bar__container span {
+    color: gray;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    font-size: .9rem;
+    color: rgb(118, 118, 118);
+}
+
+.footer a, .footer a:link {
+    color: rgb(118, 118, 118);
+    text-decoration: none;
+}
+
+.footer__paragraph {
+    font-size: .9rem;
+}
+
 
 
 
